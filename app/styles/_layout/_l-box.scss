@@ -1,0 +1,14 @@
+.l-box{
+	margin-bottom: 20px;
+	@include col(12);
+
+	@media(min-width: 768px) {
+		@include col(6);
+	}
+
+	@media(min-width: 1024px) {
+		@include col(3);
+	}
+
+
+}

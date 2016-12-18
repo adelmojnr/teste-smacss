@@ -1,0 +1,17 @@
+.m-box {
+	padding: 10px;
+	border: 2px solid #ccc;
+	box-shadow: 2px 2px 5px #888888;
+
+	&__figure {
+		overflow: hidden;
+	}
+
+	&__img {
+		width: 100%;
+	}
+
+	&__description {
+		text-align: justify;
+	}
+}
